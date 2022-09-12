@@ -8,8 +8,8 @@ def selectionSort(array, size) -> List[int]:
     (array[step], array[min_idx]) = (array[min_idx], array[step])
   return array
 
-input_data = input()
-data = []
+# input_data = input()
+# data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
